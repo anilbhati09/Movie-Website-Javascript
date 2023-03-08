@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Website</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Ubuntu:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="navbar-container">
+            <div class="logo-container">
+                <h1 class="logo">flix</h1>
+            </div>
+            <div class="menu-container">
+                <ul class="menu-list">
+                    <li class="menu-list-item homebtn">Home</li>
+                    <li class="menu-list-item">Movies</li>
+                    <li class="menu-list-item">Series</li>
+                    <li class="menu-list-item">Trends</li>
+                </ul>
+            </div>
+            <div class="profile-container">
+                <img class="profile-pic" src="img/AnilPic1.jpg" alt="">
+                <div class="profile-text-container">
+                    <span class="profile-text">Profile</span>
+                    <i class="fa-solid fa-sort-down"></i>
+                </div>
+                <div class="toggle">
+                    <i class="fa-solid fa-moon toggle-icon"></i>
+                    <i class="fa-regular fa-sun toggle-icon"></i>
+                    <div class="toggle-ball"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sidebar">
+        <i class="sidebar-menu-items fa-solid fa-magnifying-glass"></i>
+        <i class="sidebar-menu-items fa-solid fa-house"></i>
+        <i class="sidebar-menu-items fa-solid fa-users"></i>
+        <i class="sidebar-menu-items fa-solid fa-tv"></i>
+        <i class="sidebar-menu-items fa-solid fa-bookmark"></i>
+        <i class="sidebar-menu-items fa-solid fa-cart-shopping"></i>
+    </div>
+    <div class="container">
+        <div class="content-container">
+            <div class="featured-content"
+                style="background: linear-gradient(to bottom, rgba(0,0,0,0), #151515), url('img/01.\ Pathaan-1920x1080.jpg');">
+                <img class="featured-title" src="img/01. Pathaan-logo-1920x1080.jpg" alt="movie-logo">
+                <p class="featured-description"><a
+                    href="https://www.imdb.com/title/tt12844910/ratings/?ref_=tt_ov_rt" target="_blank">IMDB Rating:
+                    6.6
+                </a>An Indian spy takes on the leader of a group of mercenaries who have nefarious plans
+                    to target his homeland.</p>
+                <button class="featured-button">Watch</button>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">NEW RELEASES</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/01. Pathaan-1920x1080.jpg"
+                                alt="Pathaan_img"></img>
+                            <span class="movie-list-item-title">Pathaan</span>
+                            <p class="movie-list-item-desc"><a
+                                    href="https://www.imdb.com/title/tt12844910/ratings/?ref_=tt_ov_rt" target="_blank">IMDB Rating:
+                                    6.6
+                                </a>An Indian spy takes on the leader of a group of mercenaries who have nefarious plans
+                                to target his homeland.</p>
+                            <button class="movie-list-item-button">Watch</button>
+
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/02. Mission Majnu-1920x1080.jpg"
+                                alt="Mission Majnu_img"></img>
+                            <span class="movie-list-item-title">Mission Majnu</span>
+                            <p class="movie-list-item-desc"><a
+                                    href="https://www.imdb.com/title/tt13131232/ratings/?ref_=tt_ov_rt" target="_blank">IMDB Rating:
+                                    7.6</a>In the 1970s, an undercover Indian spy takes on a deadly mission to expose a
+                                covert nuclear weapons program in the heart of Pakistan.</p>
+                            <button class="movie-list-item-button">Watch</button>
+
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/03. RRR-1920x1080.jpg" alt="RRR_img"></img>
+                            <span class="movie-list-item-title">RRR</span>
+                            <p class="movie-list-item-desc"><a
+                                    href="https://www.imdb.com/title/tt8178634/ratings/?ref_=tt_ov_rt" target="_blank">IMDB Rating: 7.9
+                                </a>A fictitious story about two legendary revolutionaries and their journey away from
+                                home
+                                before they started fighting for their country in the 1920s.</p>
+                            <button class="movie-list-item-button">Watch</button>
+
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/05. Vikram Vedha-1920x1080.jpg"
+                                alt="Vikram Vedha_img"></img>
+                            <span class="movie-list-item-title">Vikram Vedha</span>
+                            <p class="movie-list-item-desc"><a
+                                    href="https://www.imdb.com/title/tt13131350/ratings/?ref_=tt_ov_rt" target="_blank">IMDB Rating:
+                                    7.1</a> A tough police officer sets out to track down and kill an equally tough
+                                gangsters.</p>
+                            <button class="movie-list-item-button">Watch</button>
+
+                        </div>
+
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/11. Drishyam 2-1920x1080.jpg"
+                                alt="Drishyam 2_img"></img>
+                            <span class="movie-list-item-title">Drishyam 2</span>
+                            <p class="movie-list-item-desc"><a
+                                    href="https://www.imdb.com/title/tt15501640/ratings/?ref_=tt_ov_rt" target="_blank">IMDB
+                                    Rating:8.3</a>
+                                A gripping tale of an investigation and a family which is threatened
+                                by it. Will Vijay Salgaonkar be able to protect his family this time?.</p>
+                            <button class="movie-list-item-button">Watch</button>
+
+                        </div>
+
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/09. An Action Hero-1920x1080.jpg"
+                                alt="An Action Hero_img"></img>
+                            <span class="movie-list-item-title">An Action Hero</span>
+                            <p class="movie-list-item-desc"><a
+                                    href="https://www.imdb.com/title/tt15600222/ratings/?ref_=tt_ov_rt" target="_blank">IMDB Rating:
+                                    7.2</a>Youth Icon. Superstar. Action Hero. At the age of just 30, Maanav was at the
+                                peak of his career when he got caught up in an accident while filming in Haryana.
+                                Maanav, who was once a household name, is now living in hiding.</p>
+                            <button class="movie-list-item-button">Watch</button>
+
+                        </div>
+
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/13. Bhediya-1920x1080.jpg"
+                                alt="Bhediya_img"></img>
+                            <span class="movie-list-item-title">Bhediya</span>
+                            <p class="movie-list-item-desc"><a
+                                    href="https://www.imdb.com/title/tt14099334/ratings/?ref_=tt_ov_rt" target="_blank">IMDB Rating:
+                                    7.4</a>
+                                Set in the forests of Arunachal, Bhediya is a story of
+                                Bhaskar, a man who gets bitten by a wolf, and begins to transform into the creature. As
+                                Bhaskar and his buddies try to find answers, a bunch of twists, turns, and laughs
+                                ensue..</p>
+                            <button class="movie-list-item-button">Watch</button>
+
+                        </div>
+
+
+                    </div>
+                    <i class="fa-solid fa-chevron-right arrow"></i>
+                </div>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">BLOCKBUSTERS</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/07. Bhool Bhulaiyaa 2-1920x1080.jpg"
+                                alt="Bhool Bhulaiyaa 2_img"></img>
+                            <span class="movie-list-item-title">Bhool Bhulaiyaa 2</span>
+                            <p class="movie-list-item-desc"><a
+                                    href="https://www.imdb.com/title/tt6455162/ratings/?ref_=tt_ov_rt" target="_blank">IMDB Rating:
+                                    5.7</a>When strangers Reet and Ruhan cross paths, their journey leads to an
+                                abandoned mansion and a dreaded spirit who has been trapped for 18 years.</p>
+                            <button class="movie-list-item-button">Watch</button>
+
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/04. Shershaah-1920x1080.jpg"
+                                alt="Shershaah_img"></img>
+                            <span class="movie-list-item-title">Shershaah</span>
+                            <p class="movie-list-item-desc"><a
+                                    href="https://www.imdb.com/title/tt10295212/ratings/?ref_=tt_ov_rt" target="_blank">IMDB Rating:
+                                    8.4</a> Shershaah is the story of PVC awardee Indian soldier Capt. Vikram Batra,
+                                whose bravery and unflinching courage in chasing the Pakistani soldiers out of Indian
+                                territory contributed immensely in India finally winning the Kargil War in 1999.</p>
+
+                            <button class="movie-list-item-button">Watch</button>
+
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/14. Love Aaj Kal-1920x1080.jpg"
+                                alt="Love Aaj Kal_img"></img>
+                            <span class="movie-list-item-title">Love Aaj Kal</span>
+                            <p class="movie-list-item-desc"><a
+                                    href="https://www.imdb.com/title/tt10023024/ratings/?ref_=tt_ov_rt" target="_blank">IMDB Rating:
+                                    4.6</a> When professional ambitions clash with personal feelings for a modern-day
+                                couple, a love story from a bygone era may offer some wisdom.</p>
+                            <button class="movie-list-item-button">Watch</button>
+
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/06. War-1920x1080.jpg" alt="War img"></img>
+                            <span class="movie-list-item-title">War</span>
+                            <p class="movie-list-item-desc"><a
+                                    href="https://www.imdb.com/title/tt7430722/ratings/?ref_=tt_ov_rt" target="_blank">IMDB Rating:
+                                    6.5</a> An Indian soldier chases after his mentor who has gone rogue following an
+                                unexpected kill.</p>
+                            <button class="movie-list-item-button">Watch</button>
+
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/08. Dil Bechara-1920x1080.jpg"
+                                alt="Dil Bechara_img"></img>
+                            <span class="movie-list-item-title">Dil Bechara</span>
+                            <p class="movie-list-item-desc"><a
+                                    href="https://www.imdb.com/title/tt8110330/ratings/?ref_=tt_ov_rt" target="_blank">IMDB Rating:
+                                    8.4</a> The emotional journey of two hopelessly-in-love youngsters; a young girl,
+                                Kizie, who is suffering from cancer; and Manny, a boy Kizie meets at a support group.
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/10. 83-1920x1080.jpg" alt="83_img"></img>
+                            <span class="movie-list-item-title">83</span>
+                            <p class="movie-list-item-desc"><a
+                                    href="https://www.imdb.com/title/tt7518786/ratings/?ref_=tt_ov_rt" target="_blank">IMDB Rating:
+                                    7.5</a> On June 25, 1983, the Lord's Cricket Ground witnessed 14 men beat the two
+                                times World Champions West Indies, putting India back onto the cricket world stage.</p>
+                            <button class="movie-list-item-button">Watch</button>
+
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/12. Batla House-1920x1080.jpg"
+                                alt="Batla House_img"></img>
+                            <span class="movie-list-item-title">Batla House</span>
+                            <p class="movie-list-item-desc"><a
+                                    href="https://www.imdb.com/title/tt8869978/ratings/?ref_=tt_ov_rt" target="_blank">IMDB Rating:
+                                    7.2</a> In 2008, a violent shootout with terror suspects leaves one police officer
+                                struggling to hunt down the fugitives and justify the police action.</p>
+                            <button class="movie-list-item-button">Watch</button>
+
+                        </div>
+                    </div>
+                    <i class="fa-solid fa-chevron-right arrow"></i>
+                </div>
+            </div>
+            <div class="featured-content"
+                style="background: linear-gradient(to bottom, rgba(0,0,0,0), #151515), url('img/Bhediya-1280x1024.jpg');">
+                <img class="featured-title" src="img/Bhediya-logo-1280x1024.jpg" alt="bhediya-movie-logo">
+                <p class="featured-description"><a
+                    href="https://www.imdb.com/title/tt14099334/ratings/?ref_=tt_ov_rt" target="_blank">IMDB Rating:
+                    7.4</a>
+                Set in the forests of Arunachal, Bhediya is a story of
+                Bhaskar, a man who gets bitten by a wolf, and begins to transform into the creature. As
+                Bhaskar and his buddies try to find answers, a bunch of twists, turns, and laughs
+                ensue..</p>
+                <button class="featured-button">Watch</button>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">MasterPieces</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/15. Gully Boy-1920x1080.jpg"
+                                alt="Gully Boy_img"></img>
+                            <span class="movie-list-item-title">Gully Boy</span>
+                            <p class="movie-list-item-desc"><a
+                                    href="https://www.imdb.com/title/tt2395469/ratings/?ref_=tt_ov_rt" target="_blank">IMDB Rating:
+                                    7.9</a> A coming-of-age story based on the lives of street rappers in Mumbai.</p>
+                            <button class="movie-list-item-button">Watch</button>
+
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/16.-Karwaan-1920x1080.jpg"
+                                alt="Karwaan_img"></img>
+                            <span class="movie-list-item-title">Karwaan</span>
+                            <p class="movie-list-item-desc"><a
+                                    href="https://www.imdb.com/title/tt7919680/ratings/?ref_=tt_ov_rt" target="_blank">IMDB Rating:
+                                    7.6</a> Two friends and a chirpy teenager take a road trip from Bangalore to Kochi.
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/17.-Ludo-1920x1080.jpg" alt="Ludo_img"></img>
+                            <span class="movie-list-item-title">Ludo</span>
+                            <p class="movie-list-item-desc"><a
+                                    href="https://www.imdb.com/title/tt7212754/ratings/?ref_=tt_ov_rt" target="_blank">IMDB Rating:
+                                    7.6</a> From a resurfaced sex tape to a rogue suitcase of money, four wildly
+                                different stories overlap at the whims of fate, chance and one eccentric criminal.</p>
+                            <button class="movie-list-item-button">Watch</button>
+
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/18.-Tanhaji-–-The-Unsung-Warrior-1920x1080.jpg"
+                                alt="Tanhaji_img"></img>
+                            <span class="movie-list-item-title">Tanhaji</span>
+                            <p class="movie-list-item-desc"><a
+                                    href="https://www.imdb.com/title/tt8108274/ratings/?ref_=tt_ov_rt" target="_blank">IMDB Rating:
+                                    7.5</a> Tanhaji Malusare, a military chieftain in the army of the Maratha king
+                                Shivaji, leads the charge to capture the strategically important Kondhana fort guarded
+                                by the army of the fierce Rajput chieftain Udaybhan Rathod.</p>
+
+                            <button class="movie-list-item-button">Watch</button>
+
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/19.-Super-30-1920x1080.jpg"
+                                alt="Super-30_img"></img>
+                            <span class="movie-list-item-title">Super-30</span>
+                            <p class="movie-list-item-desc"><a
+                                    href="https://www.imdb.com/title/tt7485048/ratings/?ref_=tt_ov_rt" target="_blank">IMDB Rating:
+                                    7.9</a> Based on the life of Patna-based mathematician Anand Kumar who runs the
+                                famed Super 30 program for IIT aspirants in Patna.</p>
+
+                            <button class="movie-list-item-button">Watch</button>
+
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/20.-Syeraa-Narasimha-Reddy-1280x1024.jpg"
+                                alt="Syeraa-Narasimha-Reddy_img"></img>
+                            <span class="movie-list-item-title">Syeraa Narasimha Reddy</span>
+                            <p class="movie-list-item-desc"><a
+                                    href="https://www.imdb.com/title/tt7283064/ratings/?ref_=tt_ov_rt" target="_blank">IMDB Rating:
+                                    7.3</a> A historical action epic inspired by the life of Uyyalawada Narasimha Reddy,
+                                who revolted against the atrocities of East India Company 10 years before the Sepoy
+                                Mutiny..</p>
+
+                            <button class="movie-list-item-button">Watch</button>
+
+                        </div>
+                        
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/21.-Raid-1920x1080.jpg" alt="Raid_img"></img>
+                            <span class="movie-list-item-title">Raid</span>
+                            <p class="movie-list-item-desc"><a
+                                    href="https://www.imdb.com/title/tt7363076/ratings/?ref_=tt_ov_rt" target="_blank">IMDB Rating:
+                                    7.4</a> A fearless income tax officer raids the mansion of the most powerful man in
+                                Lucknow after someone mysteriously draws his attention towards the evidence.</p>
+                            <button class="movie-list-item-button">Watch</button>
+
+                        </div>
+                    </div>
+                    <i class="fa-solid fa-chevron-right arrow"></i>
+                </div>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">Worth Watching</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/22.-Sanju-1920x1080.jpg" alt="Sanju_img"></img>
+                            <span class="movie-list-item-title">Sanju</span>
+                            <p class="movie-list-item-desc"><a
+                                    href="https://www.imdb.com/title/tt6452574/ratings/?ref_=tt_ov_rt" target="_blank">IMDB Rating:
+                                    7.6</a> Biopic of the controversial life of actor Sanjay Dutt: his film career, jail
+                                sentence, and personal life.</p>
+                            <button class="movie-list-item-button">Watch</button>
+
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/24. Rashtra-Kavach-OM-1920x1080.jpg"
+                                alt="Rashtra-Kavach-OM_img"></img>
+                            <span class="movie-list-item-title">OM</span>
+                            <p class="movie-list-item-desc"><a
+                                    href="https://www.imdb.com/title/tt9115574/ratings/?ref_=tt_ov_rt" target="_blank">IMDB Rating:
+                                    2.8</a> After losing his memory while fighting enemies, Om has to battle terrorists
+                                and amnesia in order to restore his father's honour after his old man was arrested for
+                                betraying his country.</p>
+                            <button class="movie-list-item-button">Watch</button>
+
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/25. Kabir-Singh-1920x1080.jpg"
+                                alt="Kabir-Singh_img"></img>
+                            <span class="movie-list-item-title">Kabir Singh</span>
+                            <p class="movie-list-item-desc"><a
+                                    href="https://www.imdb.com/title/tt8983202/ratings/?ref_=tt_ov_rt" target="_blank">IMDB Rating:
+                                    7</a> An exalted but short-fused surgeon plunges into a spiral of drugs, alcohol and
+                                rage after his intense relationship with his girlfriend turbulently ends..</p>
+                            <button class="movie-list-item-button">Watch</button>
+
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/26. Runway-34-1920x1080.jpg"
+                                alt="Runway-34_img"></img>
+                            <span class="movie-list-item-title">Runway 34</span>
+                            <p class="movie-list-item-desc"><a
+                                    href="https://www.imdb.com/title/tt11460992/ratings/?ref_=tt_ov_rt" target="_blank">IMDB Rating:
+                                    7</a> Inspired by true incidents, "Runway 34" revolves around Captain Vikrant Khanna
+                                played by Ajay Devgn, a flying prodigy, whose flight takes a mysterious course after
+                                take-off from an international destination.</p>
+                            <button class="movie-list-item-button">Watch</button>
+
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/27. Shamshera-1920x1080.jpg"
+                                alt="Shamshera_img"></img>
+                            <span class="movie-list-item-title">Shamshera</span>
+                            <p class="movie-list-item-desc"><a href="https://www.imdb.com/title/tt8426926/ratings/?ref_=tt_ov_rt" target="_blank">IMDB Rating: 4.8</a> In the fictitious city of Kaza, a warrior tribe is
+                                imprisoned, enslaved and tortured by a ruthless authoritarian Shudh Singh. Shamshera is
+                                a legend for his tribe who relentlessly fights for his tribe's freedom and dignity.</p>
+                            <button class="movie-list-item-button">Watch</button>
+
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/28. Stree-1920x1080.jpg" alt="Stree_img"></img>
+                            <span class="movie-list-item-title">Stree</span>
+                            <p class="movie-list-item-desc"><a
+                                    href="https://www.imdb.com/title/tt8108202/ratings/?ref_=tt_ov_rt" target="_blank">IMDB Rating:
+                                    7.5</a> In the small town of Chanderi, the menfolk live in fear of an evil spirit
+                                named "Stree" who abducts men in the night. Based on the urban legend of "Nale Ba" that
+                                went viral in Karnataka in the 1990s.</p>
+
+                            <button class="movie-list-item-button">Watch</button>
+
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/29. Uunchai-1920x1080.jpg"
+                                alt="Uunchai_img"></img>
+                            <span class="movie-list-item-title">Uunchai</span>
+                            <p class="movie-list-item-desc"><a
+                                    href="https://www.imdb.com/title/tt15309708/ratings/?ref_=tt_ov_rt" target="_blank">IMDB Rating:
+                                    7.2</a> Three friends take a trek to the Everest Base Camp. A simple trek turns out
+                                to be a personal, emotional and spiritual journey as they battle their physical
+                                limitations and discover the true meaning of freedom.</p>
+
+                            <button class="movie-list-item-button">Watch</button>
+
+                        </div>
+                    </div>
+                    <i class="fa-solid fa-chevron-right arrow"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
